@@ -35,4 +35,18 @@ The Fashion Recommendation System is a machine learning-based application that s
     ```bash
    streamlit run app.py
     ```
-   
+
+## 📊 Dataset
+- The dataset contains 44,000+ fashion product images, sourced from Myntra.
+- Images are processed and feature vectors are extracted using ResNet-50.
+
+## 📌 Working
+- User uploads an image of a fashion product.
+- The system extracts deep learning features using ResNet-50.
+- KNN compares feature vectors and finds the most similar products.
+- The system displays visually similar recommendations.
+
+## ⚡ Future Enhancements
+- Integrate real-time fashion trend analysis.
+- Improve recommendation accuracy using hybrid models.
+- Deploy as a web service with FastAPI or Flask.
